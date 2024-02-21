@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        nav {
+            background-color: #070707;
+            color: #fff;
+            padding: 10px;
+
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+        nav a:hover {
+            background-color: #777;
+        }
+  h1 {
+    text-align: center;
+  }
+  pre {
+     font: 1em sans-serif;
+  }
+  </style>
+    <title>One More Goal Pvt Ltd</title>
+</head>
+<body style="background-color:rgb(232, 234, 192);">
+       <div class="logo">
+            <img src="logo.jpg" alt="One More Goal Pvt Ltd Logo"
+            style= float:left;position:fixed;width:42px;height:42px;></div><br><br><br>
+            <nav>
+                <a href="frontpage.html">Home</a>
+                <a href="aboutus.html">About Us</a>
+                <a href="services.html">Services</a>
+                <a href="inquiriesform.html">Contact Us</a>
+            </nav>
+        
+        
+        <h1 style="color:rgba(43, 43, 104, 0.758)" ;>Contact Information</h1><br> 
+                 <pre>                  <img src="phone.png" width="100px" height="100px" >                                                       <img src="message.webp" width="100px" height="100px">                                                        <img src="location.png" width="100px" height="100px" >  </pre>
+                    <pre>                +91 9652867807                                          careers@onemoregoal.in                                    Sangareddy, Telangana-502001  </pre>
+                     
+            
+        </div>
+          
+        <div class="inquiry-form">
+            <h1 style:"color:rgba(1, 1, 7, 0.758)";>Contact Us</h1>
+            <form action="submit_form.php" method="post">
+                <table>
+                    <tr>
+                        <td><label for="name">Name:</label></td>
+                        <td>:</td>
+                        <td> <input type="text" id="name" name="name" required><br><br></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email:</label></td>
+                        <td>:</td>
+                        <td><input type="email" id="email" name="email" required><br><br></td>
+                        </tr>
+                        <tr>
+                            <td> <label for="phone">Phone Number:</label></td>
+                            <td>:</td>
+                            <td><input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required><br><br></td>
+                        </tr>
+                        <tr>
+                            <td><label for="subject">Subject:</label></td>
+                            <td>:</td>
+                            <td><input type="text" id="subject" name="subject" required><br><br></td>
+                        </tr>
+                        <tr>
+                            <td><label for="message">Message:</label></td>
+                            <td>:</td>
+                            <td><textarea id="message" name="message" rows="4" required></textarea><br><br></td>
+                        </tr>
+                    <tr>
+                        <td><button style="background-color:rgba(20, 155, 20, 0.626); type="submit">SEND MESSAGE</button></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    <footer>
+        <p>&copy; 2021 One More Goal Pvt Ltd. All rights reserved.</p>
+    </footer>
+</body>
+</html>
